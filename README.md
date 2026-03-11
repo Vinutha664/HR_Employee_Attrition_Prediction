@@ -63,9 +63,13 @@ This project demonstrates how machine learning can be used to predict employee a
 
 ![Power BI Dashboard](dashboard.png)
 
-## Streamlit App Preview
+## Streamlit Prediction App
 
-![Prediction App](streamlit_app.png)
+### Low Risk Prediction
+![Low Risk Prediction](streamlit_app_low_risk.png)
+
+### High Risk Prediction
+![High Risk Prediction](streamlit_app_high_risk.png)
 
 ---
 
