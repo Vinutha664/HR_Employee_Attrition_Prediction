@@ -65,10 +65,10 @@ This project demonstrates how machine learning can be used to predict employee a
 
 ## Streamlit Prediction App
 
-### streamlit_app_low_risk
+### Low Risk Prediction
 ![Low Risk Prediction](streamlit_app_low_risk.png)
 
-### streamlit_app_high_risk
+### High Risk Prediction
 ![High Risk Prediction](streamlit_app_high_risk.png)
 
 ---
