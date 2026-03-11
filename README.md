@@ -1,36 +1,63 @@
-# IBM HR Analytics Employee Attrition Modeling
+# Employee Attrition Prediction System
 
 ## Project Overview
 
-The IBM HR Analytics Employee Attrition Modeling project aims to create a predictive model using data science techniques to identify factors influencing employee attrition within an organization. The project utilizes a large dataset containing employee information such as age, gender, job level, performance ratings, job satisfaction levels, and other relevant factors.
+This project predicts employee attrition using machine learning techniques. The goal is to help HR teams identify employees who are at risk of leaving the company.
+The project includes data analysis, machine learning modeling, an interactive prediction interface, and a business intelligence dashboard.
 
-## Objective
+## Technologies Used
+>Python
+>Pandas
+>Scikit-learn
+>Streamlit
+>Power BI
 
-The main objective of this project is to develop a machine learning model that can accurately predict which employees are likely to leave the organization (attrition). By analyzing historical data and building predictive models, this project seeks to provide insights into the factors contributing to employee turnover. These insights can help organizations optimize their HR strategies to improve employee retention and reduce attrition rates.
+## Features
 
-## Key Features
+• Data preprocessing and feature selection
+• Machine learning model training and evaluation
+• Attrition prediction interface for HR users
+• Interactive dashboard for HR insights
 
-- Utilizes Python libraries for data analysis and machine learning, including Pandas, NumPy, Scikit-learn, and Matplotlib/Seaborn for visualization.
-- Implements various machine learning algorithms such as logistic regression, decision trees, random forests, etc., to build and evaluate predictive models.
-- Includes exploratory data analysis (EDA) to understand the dataset and identify important features related to employee attrition.
-- Evaluates model performance using metrics such as accuracy, precision, recall, and ROC-AUC score.
-- Provides insights and recommendations based on model findings to help organizations enhance employee engagement, job satisfaction, and retention strategies.
+## Model Performance
+
+The Random Forest model achieved 87% accuracy in predicting employee attrition.
+
+## Files in This Repository
+
+HR_Employee_Attrition_Analysis.ipynb → Machine learning workflow
+app.py → Prediction interface built using Streamlit
+attrition_model.pkl → Trained machine learning model
+clean_hr_data.csv → Dataset used for training
+HR Attrition Dashboard.pbix → Dashboard built using Power BI
+
+## How to Run the App
+
+Install dependencies
+Run the Streamlit application
+Enter employee details to predict attrition risk
 
 ## Dataset
 
-The dataset used in this project contains comprehensive employee information collected by IBM HR Analytics. It includes both numerical and categorical variables related to employee demographics, job characteristics, and performance metrics.
+This project uses the IBM HR Analytics Employee Attrition dataset, which contains employee-related attributes such as age, income, job satisfaction, years at company, and overtime status. The dataset is used to analyze factors influencing employee attrition and to build predictive models.
+You can reference the dataset source like
+IBM HR Analytics Employee Attrition Dataset.
 
 ## Project Structure
 
-- **Data Preparation**: Cleaning, preprocessing, and feature engineering to prepare the dataset for modeling.
-- **Exploratory Data Analysis (EDA)**: Visualizing data distributions, correlations, and identifying patterns related to employee attrition.
-- **Model Building**: Implementing machine learning algorithms to train and evaluate predictive models.
-- **Model Evaluation**: Assessing model performance and selecting the best model based on evaluation metrics.
-- **Insights and Recommendations**: Summarizing findings, interpreting model results, and providing actionable insights to stakeholders.
+HR-Employee-Attrition-Prediction
+│
+├── HR_Employee_Attrition_Analysis.ipynb   # Data analysis and model training
+├── app.py                                 # Streamlit prediction app
+├── attrition_model.pkl                    # Trained ML model
+├── clean_hr_data.csv                      # Dataset
+├── HR Attrition Dashboard.pbix            # Power BI dashboard
+└── README.md                              # Project documentation
+
 
 ## Conclusion
 
-The IBM HR Analytics Employee Attrition Modeling project is designed to help organizations gain valuable insights into employee turnover dynamics. By leveraging data-driven approaches and machine learning techniques, this project aims to empower HR professionals and decision-makers to proactively address factors contributing to employee attrition and improve organizational retention strategies.
+This project demonstrates how machine learning can be used to predict employee attrition based on HR analytics data. By combining data preprocessing, predictive modeling, and interactive visualization, the system helps identify employees who may be at risk of leaving the organization. The Streamlit application allows users to input employee details and receive real-time attrition predictions.
 
 ---
 
