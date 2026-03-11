@@ -67,6 +67,7 @@ This project demonstrates how machine learning can be used to predict employee a
 
 ### Low Risk Prediction
 ![Low Risk Prediction](streamlit_app_low_risk.png)
+<img width="907" height="783" alt="image" src="https://github.com/user-attachments/assets/d03b9ba3-c181-4710-a071-c3fed035a0e7" />
 
 
 ### High Risk Prediction
