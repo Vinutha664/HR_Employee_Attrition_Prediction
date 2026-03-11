@@ -59,6 +59,14 @@ HR-Employee-Attrition-Prediction
 
 This project demonstrates how machine learning can be used to predict employee attrition based on HR analytics data. By combining data preprocessing, predictive modeling, and interactive visualization, the system helps identify employees who may be at risk of leaving the organization. The Streamlit application allows users to input employee details and receive real-time attrition predictions.
 
+## Dashboard Preview
+
+![Power BI Dashboard](dashboard.png)
+
+## Streamlit App Preview
+
+![Prediction App](streamlit_app.png)
+
 ---
 
 Feel free to contribute to this project by forking the repository, exploring the code, and enhancing the predictive modeling capabilities.
